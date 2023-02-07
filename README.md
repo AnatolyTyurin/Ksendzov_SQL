@@ -122,7 +122,9 @@ FROM pc p1, pc p2
 WHERE p1.speed = p2.speed AND p1.ram = p2.ram AND p1.model > p2.model
 <br>
 <br>
-## HW_SQL_2
+```
+## HW_SQL_2.
+```sql
 --1) Создать таблицу employees - id serial,  primary key, - employee_name. Varchar(50), not null
 
 create table employees(
